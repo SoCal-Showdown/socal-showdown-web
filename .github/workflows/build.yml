@@ -1,0 +1,38 @@
+name: Test and Build React
+
+on:
+    push:
+
+    pull_request:
+        branches: ['master']
+
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - uses: actions/setup-node@v3
+              with:
+                  cache: 'npm'
+
+            - run: npm ci
+
+            - name: ESLint check
+              run: npm run lint:check
+
+            - name: Prettier check
+              run: npm run format:check
+
+            - name: Build app
+              run: npm run build
+
+            - name: Upload artifact
+              uses: actions/upload-artifact@v3.1.1
+              with:
+                  name: build
+                  # Path of the directory containing the static assets.
+                  path: build
