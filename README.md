@@ -2,7 +2,10 @@
 
 Website for the Socal Showdown off-season competition.
 
-## Contributing
+## Development tools
+
+Both of the following tools can be run at once using `npm run fix`. Both are
+also applied before commits.
 
 ### ESLint
 
@@ -10,11 +13,11 @@ Website for the Socal Showdown off-season competition.
 > ECMAScript/JavaScript code, with the goal of making code more consistent and
 > avoiding bugs.
 
-Run the command `npm run lint` to fix any auto-fixable issues.
+Run the command `npm run lint` to detect issues and fix any auto-fixable ones.
 
 ### Prettier
 
-> Prettier is an opinionated code formatter. It removes all original
-> styling* and ensures that all outputted code conforms to a consistent style.
+> Prettier is an opinionated code formatter. It removes all original styling
+> and ensures that all outputted code conforms to a consistent style.
 
 Run the command `npm run format` to format all code.

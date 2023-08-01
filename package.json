@@ -25,6 +25,8 @@
     "lint:check": "eslint .",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
+    "fix": "npm run lint && npm run format",
+    "fix:check": "npm run lint:check && npm run format:check",
     "prepare": "husky install"
   },
   "browserslist": {
