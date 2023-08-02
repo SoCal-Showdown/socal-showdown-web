@@ -1,9 +1,15 @@
 import { Outlet } from 'react-router';
+import { Link } from 'react-router-dom';
 
 function Root() {
     return (
         <>
-            <header>Socal ShowDown</header>
+            <header>
+                <p>Socal ShowDown</p>
+                <nav>
+                    <Link to=''>Home</Link>
+                </nav>
+            </header>
             <Outlet />
         </>
     );
