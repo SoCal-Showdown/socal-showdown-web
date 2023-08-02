@@ -1,4 +1,4 @@
-name: Test and Build React
+name: Build and Test React
 
 on:
     push:
@@ -13,17 +13,23 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v3
+            - name: Checkout Repository
+              uses: actions/checkout@v3
 
-            - uses: actions/setup-node@v3
+            - name: Setup Node
+              uses: actions/setup-node@v3
               with:
                   cache: 'npm'
 
-            - run: npm ci
+            - name: Install Packages
+              run: npm ci
 
-            # Build before format so that if errors exist in both the error that shows up is a build error and not a format error
+              # Build before format so that if errors exist in both the error that shows up is a build error and not a format error
             - name: Build app
               run: npm run build
+
+            - name: ESLint check
+              run: npm run lint:check
 
             - name: Prettier check
               run: npm run format:check
