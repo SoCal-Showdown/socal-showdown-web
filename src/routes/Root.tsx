@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router';
 
-function Nav() {
+function Root() {
     return (
         <>
             <header>Socal ShowDown</header>
@@ -9,4 +9,4 @@ function Nav() {
     );
 }
 
-export default Nav;
+export default Root;
