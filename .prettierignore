@@ -20,7 +20,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# pkgconfig
 package.json
 package-lock.json
 README.md
 tsconfig.json
+.prettierignore
+
+# symlinks
+public/404.html
