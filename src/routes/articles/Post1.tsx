@@ -1,6 +1,6 @@
 const Post1 = () => (
     <main>
-        <h1>Welcome to </h1>
+        <h1 className='text-fuchsia-500'>Welcome to </h1>
     </main>
 );
 
