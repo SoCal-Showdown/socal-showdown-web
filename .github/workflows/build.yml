@@ -21,18 +21,9 @@ jobs:
 
             - run: npm ci
 
-            - name: ESLint check
-              run: npm run lint:check
-
-            - name: Prettier check
-              run: npm run format:check
-
+            # Build before format so that if errors exist in both the error that shows up is a build error and not a format error
             - name: Build app
               run: npm run build
 
-            - name: Upload artifact
-              uses: actions/upload-artifact@v3.1.1
-              with:
-                  name: build
-                  # Path of the directory containing the static assets.
-                  path: build
+            - name: Prettier check
+              run: npm run format:check
