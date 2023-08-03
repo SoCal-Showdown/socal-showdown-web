@@ -2,6 +2,14 @@
 
 Website for the Socal Showdown off-season competition.
 
+## Learning React
+
+See [RESOURCES.md](docs/RESOURCES.md).
+
+## Setting up a development environment
+
+See [SETUP.md](docs/SETUP.md).
+
 ## Development tools
 
 Both of the following tools can be run at once using `npm run fix`. Both are
