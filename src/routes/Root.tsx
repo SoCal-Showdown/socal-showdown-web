@@ -5,7 +5,7 @@ function Root() {
     return (
         <>
             <header>
-                <p>Socal ShowDown</p>
+                <p className='p-3 text-center text-3xl '>Socal Showdown</p>
                 <nav>
                     <Link to=''>Home</Link>
                 </nav>
