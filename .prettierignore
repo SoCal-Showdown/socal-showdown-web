@@ -29,3 +29,6 @@ tsconfig.json
 
 # symlinks
 public/404.html
+
+#docs
+docs/
