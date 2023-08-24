@@ -7,10 +7,10 @@ HTML is the fundamental skelaton for making web pages :3
 headings are represented with `<h1>` all the way to `<h6>`. For example:
 
 ```html
-<h1>one heading :3</h1>
+<h1>One heading :3</h1>
 <h2>Another Heading </h2>
-<h3>this is also another heading</h3>
-<h6>the other heading :3</h6>
+<h3>This is also another heading</h3>
+<h6>The other heading :3</h6>
 ```
 
 ## Paragraphs
@@ -18,7 +18,7 @@ headings are represented with `<h1>` all the way to `<h6>`. For example:
 Paragraphs are used to write sentences for your web page using `<p>`. Some examples are:
 
 ```html
-<p>this is a paragraph. Also, ice cream truck music is cool :3</p>
+<p>Lorem ipsum dolor sit amet. Est nihil dolorum At tenetur voluptas et excepturi dolore in rerum ratione. Aut dolorem facilis vel nisi quod aut consequatur pariatur sed architecto soluta non voluptatem dolores. Nam beatae Quis est excepturi fuga et quidem corporis est sequi odit.</p>
 ```
 
 Images
