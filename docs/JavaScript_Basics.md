@@ -22,29 +22,29 @@ multiple lines */
 
 ```js
 console.log('Hello world');
-// This prints the text
-// Hello world
-// on the screen.
+// This prints the text "Hello world" on the screen.
+// Every statement ends with a semicolon, and usually you have one statement per line.
 ```
 
 ## Values
 
 ```js
-// A string is text
-'This is a string';
+// A string is text. To create a string surround it with single quotes.
+'This is a string'
 ```
 
 ```js
 // These are numbers
-5;
-0 - 53521;
-0.0015125;
+5
+0
+-53521
+0.0015125
 ```
 
 ```js
 // A boolean is only true or false
-true;
-false;
+true
+false
 ```
 
 All of these are data you can manipulate.
@@ -57,7 +57,7 @@ console.log(5);
 
 ## Variables
 
-A variable is a way to store data. Variables can store any values.
+A variable is a way to store data. Variables can store any of the above kinds of values.
 
 Create a read-only variable using `const`.
 
@@ -152,7 +152,20 @@ function getName() {
     return 'Bob';
 }
 
+const name = getName();
+// name is set to "Bob"
+
 console.log(getName());
+// Prints "Bob"
 ```
 
-This may not seem useful now, but later you'll add more logic inside the function to do further processing.
+This may not seem useful now, but later you'll add more logic inside the function to do further processing, for example:
+
+```js
+function makeGreeting(name) {
+    return `Hello, ${name}`;
+}
+
+console.log(makeGreeting('Bob'));
+// Prints "Hello, Bob"
+```
