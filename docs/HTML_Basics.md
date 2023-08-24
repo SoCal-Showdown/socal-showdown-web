@@ -21,7 +21,7 @@ Paragraphs are used to write sentences for your web page using `<p>`. Some examp
 <p>Lorem ipsum dolor sit amet. Est nihil dolorum At tenetur voluptas et excepturi dolore in rerum ratione. Aut dolorem facilis vel nisi quod aut consequatur pariatur sed architecto soluta non voluptatem dolores. Nam beatae Quis est excepturi fuga et quidem corporis est sequi odit.</p>
 ```
 
-Images
+## Images
 Use `<img>` to define the image and src to insert the image.
 
 Add the alt or alternative attribute to your image so that when the image can't load, a description pops up instead.
@@ -40,7 +40,7 @@ Example:
 <img src="images/Acoolimage.png" alt="A very cool image" width="100" height="100" />
 ```
 
-Links
+## Links
 Use `<a>` tag to define the link and the href attribute to insert the link.
 
 Example:
@@ -49,7 +49,7 @@ Example:
 <a href="www.conesarecool.com">This is a link</a>
 ```
 
-Lists
+## Lists
 
 There are 2 types of lists. The unordered list, `<ul>` and the ordered list, `<ol>`.
 
