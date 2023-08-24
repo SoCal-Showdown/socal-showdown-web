@@ -9,6 +9,7 @@ Welcome to the documentation for beginners on getting started with git and the g
 - [Using GitKraken](#using-gitkraken)
 - [Collaboration and Remote Repositories](#collaboration-and-remote-repositories)
 - [Handling Merge Conflicts](#handling-merge-conflicts)
+- [Using Git from the Command Line](#using-git-from-the-command-line)
 - [Resources and Further Learning](#resources-and-further-learning)
 
 ## Introduction to Version Control and Git
@@ -86,6 +87,23 @@ Merge conflicts can occur when Git can't automatically merge changes. Don't copy
 
 2. **Resolve Conflicts:**
    - Open a file, choose the version you want to keep, and save the changes.
+
+## Using Git from the Command Line
+
+Now, if you're interested in what I meant by "using the command line", here are some of the basics. Working with Git via the command line provides you with powerful control over your repositories. Here are some essential commands:
+
+- **Clone a Repository:** Clone a remote repository to your local machine with `git clone <repository-url>`.
+
+- **Check Status:** See the status of your repository with `git status`. This shows you which files have been modified, added, or deleted.
+
+- **Review Changes:** View the changes made to a file with `git diff <filename>` before staging them.
+
+- **Undo Changes:** Discard changes in your working directory with `git restore <filename>`.
+
+- **Commit History:** View the commit history with `git log`. Use `git log --oneline` for a more concise view.
+
+- **Amend Commits:** Modify the most recent commit with `git commit --amend`. Use this carefully, as it changes commit history.
+
 
 ## Resources and Further Learning
 
