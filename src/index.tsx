@@ -6,6 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './routes/HomePage';
 import Root from './routes/Root';
 import Post1 from './routes/articles/Post1';
+import SignUp from './routes/articles/SignUp';
+import Sponsors from './routes/articles/Sponsors';
+import LocationTime from './routes/articles/LocationTime';
 
 const router = createBrowserRouter([
     {
@@ -15,6 +18,18 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <HomePage />,
+            },
+            {
+                path: 'signup',
+                element: <SignUp />,
+            },
+            {
+                path: 'sponsors',
+                element: <Sponsors />,
+            },
+            {
+                path: 'location_time',
+                element: <LocationTime />,
             },
             {
                 path: 'articles',
