@@ -21,8 +21,7 @@ First, we start off with our function setup. We always need a declaration, retur
 ```jsx
 function RadioButtons() {
 
-
-    return ();
+    return;
 }
 
 export default RadioButtons;
@@ -38,7 +37,7 @@ To get that list, we'll use **props**. Props, (or properties), get passed into t
 function RadioButtons({items}) {
 
 
-    return ();
+    return;
 }
 
 export default RadioButtons;
@@ -46,40 +45,49 @@ export default RadioButtons;
 
 Now, the functionality!
 
-For each item in that list, we want the code to generate a new button. So:
+For each item in that list, we want the code to generate a new button. To do that, we'll use the function .map(), which allows us to apply a certain function to every index (Each item, in this case) in an array. 
+
+We're using the .map function on the array items, so:
 
 ```jsx
 function RadioButtons({items}) {
 
-    for (let item in items){
+    return items.map(
 
-    }
+    );
 
-    return ();
 }
 
 export default RadioButtons;
 ```
 
-This for loop is running for each **item** (each word) in **items** (the list of words passed in).
+Next, let's determine what should go inside the .map() function - what do we want to do for each item in our list?
 
-Next, let's determine what's being iterated (run) for each item.
+We want to generate a button, with the text given for it:
 
 ```jsx
 function RadioButtons({items}) {
 
-    for (let item in items) {
-        output.push(
-            <p key={item}>
+    return items.map (item => (
+            <p>
                 <input type="radio" value={item} />
-                {props.items[item]}
             </p>
-        )
-    }
-    return ();
-
+        ));
 }
 
+export default RadioButtons;
+```
+
+Let's break that down.
+
+For each **item** in the array, we're generating an input of type "radio" (to get a selectable, rounded button). We set the value (the text that will be displayed with the button) to item, so that as the function iterates through each item in the loop, the name for each button will pop up with it.
+
+
+Now you're seeing the beauty of React - this is a combination of both HTML and JavaScript!
+
+And finally, we need to give each button a unique **key**, so that it's identifiable even if it has the same value as another item. To do this, we'll need to get the **index** (the location of an item in an array) of the item we're applying the function to. So, we'll include it wherever we're importing **items** in.
+
+```jsx
 function RadioButtons({items, index}) {
 
     return items.map (item, index => (
@@ -92,37 +100,6 @@ function RadioButtons({items, index}) {
 
 export default RadioButtons;
 ```
-
-Let's break that down.
-
-In the components we're building, we usually generate the elements inside of the return statement, so don't worry about output.push for now.
-
-Each button needs to have it's own key, to identify it as different from the other buttons.
-
-We'll make an input of the type "radio" (to get a selectable, rounded button). We set each **item** with piece of text to use as the label for that button, so we'll access that by setting the value to item. As the for loop iterates through the list of items, generating a button for each item in the list, it'll give the button the name value of whatever item iteration it's on.
-
-Now you're seeing the beauty of React - this is a combination of both HTML and JavaScript!
-
-And finally, we'll finish out our return statement.
-
-```jsx
-function RadioButtons({items}) {
-    let output = [];
-    for (let item in items) {
-        output.push(
-            <p key={item}>
-                <input type='radio' value={item} />
-                {props.items[item]}
-            </p>
-        );
-    }
-    return output;
-}
-
-export default RadioButtons;
-```
-
-(We're having the buttons return as an array, for organization.)
 
 And finally, wherever you want to use this component, you simply write the name, and then specify information for whatever props that function might need, like so:
 
