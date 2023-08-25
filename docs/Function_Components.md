@@ -32,10 +32,10 @@ What do we want this component to do?
 
 We want it to generate a certain number of buttons - with words attached to each - based on input from the user. In this case, we'll have the user pass in a list of words (each an **"item"**) as an array (called **"items"**).
 
-To get that list, we'll use **props**. Props, (or properties), get passed into the component so that the function can use them.
+To get that list, we'll use **props**. Props, (or properties), get passed into the component so that the function can use them. We can specify that we want the list of **items** to be passed in, like so:
 
 ```jsx
-function RadioButtons(props) {
+function RadioButtons({items}) {
 
 
     return ();
@@ -49,9 +49,9 @@ Now, the functionality!
 For each item in that list, we want the code to generate a new button. So:
 
 ```jsx
-function RadioButtons(props) {
+function RadioButtons({items}) {
 
-    for (let item in props.items){
+    for (let item in items){
 
     }
 
@@ -61,14 +61,14 @@ function RadioButtons(props) {
 export default RadioButtons;
 ```
 
-This for loop is running for each **item** (each word) in **props.items** (the list of words passed in through props).
+This for loop is running for each **item** (each word) in **items** (the list of words passed in).
 
 Next, let's determine what's being iterated (run) for each item.
 
 ```jsx
-function RadioButtons(props) {
+function RadioButtons({items}) {
 
-    for (let item in props.items) {
+    for (let item in items) {
         output.push(
             <p key={item}>
                 <input type="radio" value={item} />
@@ -96,9 +96,9 @@ Now you're seeing the beauty of React - this is a combination of both HTML and J
 And finally, we'll finish out our return statement.
 
 ```jsx
-function RadioButtons(props) {
+function RadioButtons({items}) {
     let output = [];
-    for (let item in props.items) {
+    for (let item in items) {
         output.push(
             <p key={item}>
                 <input type='radio' value={item} />
