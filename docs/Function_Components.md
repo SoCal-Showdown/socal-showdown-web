@@ -88,7 +88,7 @@ Now you're seeing the beauty of React - this is a combination of both HTML and J
 And finally, we need to give each button a unique **key**, so that it's identifiable even if it has the same value as another item. To do this, we'll need to get the **index** (the location of an item in an array) of the item we're applying the function to. So, we'll include it wherever we're importing **items** in.
 
 ```jsx
-function RadioButtons({items, index}) {
+function RadioButtons({items}) {
 
     return items.map (item, index => (
             <p key={index}>
