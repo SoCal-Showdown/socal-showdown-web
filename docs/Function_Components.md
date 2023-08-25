@@ -6,15 +6,11 @@ React is mostly made up of Javascript functions - so, you end up using a lot of 
 
 To make our code cleaner and easier to navigate, we use **components**.
 
-To understand **instances of components**, think of a litter of puppies. All of them have the same parent, and while some may look identical and some may look different, they are each their own.
+Each time we use a component, it's called an instance. To understand **instances of components**, think of a litter of puppies. All of them have the same parent, and while some may look identical and some may look different, they are each their own.
 
-Instances of components each have the same original code (the same core function), and whether instances look similar or different, they all serve different purposes.
-
-You'll likely have many instances of the same component all over your code.
+Instances of components each have the same original code (the same core function), and whether instances look similar or different, they all serve different purposes. (You'll likely have many instances of the same component all over your code.)
 
 So, let's learn to build one!
-
----
 
 ## Building a functional component
 
@@ -67,7 +63,7 @@ export default RadioButtons;
 
 This for loop is running for each **item** (each word) in **props.items** (the list of words passed in through props).
 
-Next, let's determine what's being iterated - run - for each item.
+Next, let's determine what's being iterated (run) for each item.
 
 ```jsx
 function RadioButtons(props) {
@@ -87,14 +83,13 @@ function RadioButtons(props) {
 export default RadioButtons;
 ```
 
-This seems like a lot, so let's break it down.
+Let's break that down.
 
 In the components we're building, we usually generate the elements inside of the return statement, so don't worry about output.push for now.
 
 Each button needs to have it's own key, to identify it as different from the other buttons.
 
-We'll make an input of the type "radio" (to get that rounded shape, and selectable feature).
-We gave each item a piece of text to use as the label for that button, so we'll access that by setting the value to item - as the for loop iterates through the list of items, generating a button for each item in the list, it'll give the button the name value of whatever item iteration it's on.
+We'll make an input of the type "radio" (to get a selectable, rounded button). We set each **item** with piece of text to use as the label for that button, so we'll access that by setting the value to item. As the for loop iterates through the list of items, generating a button for each item in the list, it'll give the button the name value of whatever item iteration it's on.
 
 Now you're seeing the beauty of React - this is a combination of both HTML and JavaScript!
 
@@ -117,7 +112,7 @@ function RadioButtons(props) {
 export default RadioButtons;
 ```
 
-We're having the buttons return as an array, for organization.
+(We're having the buttons return as an array, for organization.)
 
 And finally, wherever you want to use this component, you simply write the name, and then specify information for whatever props that function might need, like so:
 
