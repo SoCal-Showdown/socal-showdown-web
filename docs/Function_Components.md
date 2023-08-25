@@ -90,11 +90,11 @@ And finally, we need to give each button a unique **key**, so that it's identifi
 ```jsx
 function RadioButtons({items}) {
 
-    return items.map (item, index => (
-            <p key={index}>
-                <input type="radio" value={item} />
-                {props.items[item]}
-            </p>
+    return items.map ((item, index) => (
+        <p key={index}>
+            <input type="radio" value={item} />
+            {props.items[item]}
+        </p>
         ));
 }
 
