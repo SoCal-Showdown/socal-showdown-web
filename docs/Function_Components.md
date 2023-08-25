@@ -80,6 +80,16 @@ function RadioButtons({items}) {
 
 }
 
+function RadioButtons({items, index}) {
+
+    return items.map (item, index => (
+            <p key={index}>
+                <input type="radio" value={item} />
+                {props.items[item]}
+            </p>
+        ));
+}
+
 export default RadioButtons;
 ```
 
