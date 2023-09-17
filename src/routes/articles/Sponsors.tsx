@@ -23,15 +23,12 @@ function Sponsors() {
                 </p>
             </div>
 
-            <div className='flex flex-wrap justify-center'>
+            <div className='flex flex-wrap justify-center '>
                 <div className='m-5 w-1/2'>
                     <h1 className='m-5 text-center font-serif text-2xl font-semibold'>
                         Title Sponsor
                     </h1>
-                    <img src={GeneHassLogo} className='mx-auto w-2/3'></img>
-                    <p className='m-5 text-center font-serif text-xl'>
-                        Gene Hass Foundation
-                    </p>
+                    <img src={GeneHassLogo} className='mx-auto w-1/2'></img>
                 </div>
 
                 <div className='m-5 w-5/6'>
@@ -39,88 +36,61 @@ function Sponsors() {
                         Alliance Captains
                     </h1>
 
-                    <div className='-mx-2 flex flex-wrap items-center justify-center'>
+                    <div className='-mx-10 flex w-auto flex-wrap items-center justify-center'>
                         <div className='m-5 w-1/5 px-2'>
                             <img src={ChevronLogo} className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Chevron
-                            </p>
                         </div>
 
                         <div className='m-5 w-1/5 px-2'>
                             <img
                                 src={AerojetRocketDyneLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Aerojet Rocketdyne
-                            </p>
                         </div>
 
                         <div className='m-5 w-1/5 px-2'>
                             <img src={L3HLogo} className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                L3H
-                            </p>
                         </div>
 
                         <div className='px-2m-5 w-1/5'>
                             <img
                                 src={TeamSprocketLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                FRC #3473 Team Sprocket
-                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div className='m-5 w-5/6'>
-                    <h1 className='m-5 text-center font-serif text-2xl font-semibold'>
+                    <h1 className='m-5 w-auto text-center font-serif text-2xl font-semibold'>
                         Fierce Competitors
                     </h1>
 
-                    <div className='-mx-2 flex flex-wrap items-center justify-center gap-3'>
+                    <div className='-mx-10 flex flex-wrap items-center justify-center gap-3'>
                         <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={SmartandFinalLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Smart & Final
-                            </p>
                         </div>
 
                         <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={JerseyMikesLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Jersey Mike's
-                            </p>
                         </div>
 
                         <div className='m-5 w-1/6 px-2'>
                             <img src={MKLogo} className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                M & K
-                            </p>
                         </div>
 
                         <div className='px-2m-5 w-1/6'>
                             <img
                                 src={IkesSandwichesLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Ike's Love and Sandwiches (?)
-                            </p>
                         </div>
 
                         <div className='px-2m-5 w-1/6'>
                             <img
                                 src={RaisingCanesLogo}
                                 className='mx-auto'></img>
-                            <p className='m-5 text-center font-serif text-xl'>
-                                Raising Cane's
-                            </p>
                         </div>
                     </div>
                 </div>
