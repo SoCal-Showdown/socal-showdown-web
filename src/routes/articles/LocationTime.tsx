@@ -9,7 +9,8 @@ function LocationTime() {
                 <iframe
                     src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.06083922782!2d-118.38439771844679!3d33.91801250511423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b6a38fe374df%3A0x21d8eead88e39f96!2sDa%20Vinci%20Schools!5e0!3m2!1sen!2sus!4v1693364360555!5m2!1sen!2sus'
                     loading='lazy'
-                    className='m-5 max-h-96 w-3/5 max-w-md pt-3'></iframe>
+                    className='m-5 max-h-96 w-3/5 max-w-md pt-3'
+                    title='Google Map'></iframe>
 
                 <div className='m-5 h-max w-fit max-w-md p-7 pt-0 leading-9'>
                     <h3 className='pb-2 font-serif text-3xl font-semibold text-bluegray-rgba'>
