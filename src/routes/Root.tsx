@@ -14,12 +14,6 @@ function Root() {
                     <Link to='location_time'>Location & Time</Link>
                     <Link to='sponsors'>Sponsors</Link>
                 </nav>
-
-                <img
-                    src={
-                        'https://lh6.googleusercontent.com/BArYgxxTi6vyWHGJ…f5zFy7jfpSC6yjDbrielIng9AWjnwssLclJjtaaaU4=w16383'
-                    }
-                />
             </header>
             <Outlet />
         </>
