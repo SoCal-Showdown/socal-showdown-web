@@ -1,7 +1,7 @@
 function LocationTime() {
     return (
         <main className='table-fixed font-serif'>
-            <h1 className='p-3 text-center font-serif text-2xl font-bold text-bluegray-rgba'>
+            <h1 className='p-3 text-center font-serif text-2xl font-bold text-bluegray'>
                 Location and Time
             </h1>
 
@@ -13,7 +13,7 @@ function LocationTime() {
                     title='Google Map'></iframe>
 
                 <div className='m-5 h-max w-fit max-w-md p-7 pt-0 leading-9'>
-                    <h3 className='pb-2 font-serif text-3xl font-semibold text-bluegray-rgba'>
+                    <h3 className='pb-2 font-serif text-3xl font-semibold text-bluegray'>
                         When:
                     </h3>
                     <p className='font-semibold '>October 6th, 2023</p>
@@ -25,7 +25,7 @@ function LocationTime() {
                         demonstrations, and awards
                     </li>
 
-                    <h3 className='pb-2 pt-4 font-serif text-3xl font-semibold text-bluegray-rgba'>
+                    <h3 className='pb-2 pt-4 font-serif text-3xl font-semibold text-bluegray'>
                         Where:
                     </h3>
 

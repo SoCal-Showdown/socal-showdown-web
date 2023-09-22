@@ -5,7 +5,7 @@ function Root() {
     return (
         <>
             <header>
-                <p className='p-3 text-center font-serif text-3xl font-bold text-bluegray-rgba'>
+                <p className='p-3 text-center font-serif text-3xl font-bold text-bluegray'>
                     Socal Showdown
                 </p>
                 <nav className='mt-2 flex flex-row justify-center gap-4 text-center font-serif text-2xl'>
