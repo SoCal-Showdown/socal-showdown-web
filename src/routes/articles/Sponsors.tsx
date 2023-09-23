@@ -99,9 +99,9 @@ function Sponsors() {
 
                         <div className='px-2m-5 w-1/6'>
                             <img
-                                src={IkesSandwichesLogo}
+                                src={RaisingCanesLogo}
                                 className='mx-auto'
-                                alt='IkesSandwichesLogo'></img>
+                                alt='RaisingCanesLogo'></img>
                         </div>
 
                         <div className='px-2m-5 w-1/6'>
