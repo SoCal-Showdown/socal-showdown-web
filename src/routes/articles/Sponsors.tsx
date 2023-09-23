@@ -28,7 +28,10 @@ function Sponsors() {
                     <h1 className='m-5 text-center font-serif text-2xl font-semibold'>
                         Title Sponsor
                     </h1>
-                    <img src={GeneHassLogo} className='mx-auto w-1/2'></img>
+                    <img
+                        alt='GeneHassLogo'
+                        src={GeneHassLogo}
+                        className='mx-auto w-1/2'></img>
                 </div>
 
                 <div className='m-5 w-5/6'>
@@ -38,23 +41,31 @@ function Sponsors() {
 
                     <div className='-mx-10 flex w-auto flex-wrap items-center justify-center'>
                         <div className='m-5 w-1/5 px-2'>
-                            <img src={ChevronLogo} className='mx-auto'></img>
+                            <img
+                                alt='ChevronLogo'
+                                src={ChevronLogo}
+                                className='mx-auto'></img>
                         </div>
 
                         <div className='m-5 w-1/5 px-2'>
                             <img
                                 src={AerojetRocketDyneLogo}
-                                className='mx-auto'></img>
+                                className='mx-auto'
+                                alt='AerojetRocketDyneLogo'></img>
                         </div>
 
                         <div className='m-5 w-1/5 px-2'>
-                            <img src={L3HLogo} className='mx-auto'></img>
+                            <img
+                                alt='L3HLogo'
+                                src={L3HLogo}
+                                className='mx-auto'></img>
                         </div>
 
                         <div className='px-2m-5 w-1/5'>
                             <img
                                 src={TeamSprocketLogo}
-                                className='mx-auto'></img>
+                                className='mx-auto'
+                                alt='TeamSprocketLogo'></img>
                         </div>
                     </div>
                 </div>
@@ -68,29 +79,36 @@ function Sponsors() {
                         <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={SmartandFinalLogo}
-                                className='mx-auto'></img>
+                                className='mx-auto'
+                                alt='SmartandFinalLogo'></img>
                         </div>
 
                         <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={JerseyMikesLogo}
-                                className='mx-auto'></img>
+                                className='mx-auto'
+                                alt='JerseyMikesLogo'></img>
                         </div>
 
                         <div className='m-5 w-1/6 px-2'>
-                            <img src={MKLogo} className='mx-auto'></img>
+                            <img
+                                src={MKLogo}
+                                className='mx-auto'
+                                alt='MKLogo'></img>
                         </div>
 
                         <div className='px-2m-5 w-1/6'>
                             <img
                                 src={IkesSandwichesLogo}
-                                className='mx-auto'></img>
+                                className='mx-auto'
+                                alt='IkesSandwichesLogo'></img>
                         </div>
 
                         <div className='px-2m-5 w-1/6'>
                             <img
-                                src={RaisingCanesLogo}
-                                className='mx-auto'></img>
+                                src={IkesSandwichesLogo}
+                                className='mx-auto'
+                                alt='IkesSandwichesLogo'></img>
                         </div>
                     </div>
                 </div>
