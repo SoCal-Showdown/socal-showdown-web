@@ -1,7 +1,3 @@
-import eventMapBig from './images/EventMapBig.jpg';
-import eventMapSmallex from './images/EventMapSmall.jpg';
-import eventMapBigTwo from './images/EventMapBig2.jpg';
-import eventMapBigThree from './images/Copy of Event Map Big.jpg';
 import eventmaplarge from './images/EventMapLarge.jpg';
 import eventmapsmall from './images/Event Map Small (6).jpg';
 
