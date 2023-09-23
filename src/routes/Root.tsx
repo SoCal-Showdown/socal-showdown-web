@@ -10,7 +10,8 @@ function Root() {
                 <nav className='flex flex-row gap-4'>
                     <Link to=''>Home</Link>
                     <Link to='signup'>Sign Up</Link>
-                    <Link to='location_time'>Location & Time</Link>
+                    <Link to='location_time'>Location Time</Link>
+
                     <Link to='directions'>Directions</Link>
                     <Link to='sponsors'>Sponsors</Link>
                 </nav>
