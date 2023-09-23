@@ -10,6 +10,7 @@ import SignUp from './routes/articles/SignUp';
 import Sponsors from './routes/articles/Sponsors';
 import LocationTime from './routes/articles/LocationTime';
 import Directions from './routes/articles/Directions';
+import EventInfo from './routes/EventInfo';
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path: 'directions',
                 element: <Directions />,
+            },
+            {
+                path: 'eventinfo',
+                element: <EventInfo />,
             },
             {
                 path: 'articles',

@@ -14,6 +14,7 @@ function Root() {
                     <Link to='location_time'>Location Time</Link>
                     <Link to='directions'>Directions</Link>
                     <Link to='sponsors'>Sponsors</Link>
+                    <Link to='eventinfo'>Event Info</Link>
                 </nav>
             </header>
             <Outlet />
