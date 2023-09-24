@@ -21,6 +21,29 @@ function EventInfo() {
                         title='2023 Workshop Schedule'></iframe>
                 </div>
             </div>
+            <div>
+                <h2 className='p-3 text-center font-serif text-2xl font-bold text-bluegray'>
+                    Dicovery Center
+                </h2>
+            </div>
+            <div>
+                <div className='flex h-screen w-screen flex-wrap justify-center gap-2'>
+                    <h2 className='font-semibold'>
+                        Do you have any elementary or middle school learners who
+                        are interested in robotics and STEAM? At SoCal
+                        Showdown's Discovery Row, you'll be able to: Design,
+                        build, and drive LEGO Robots Build your own popsicle
+                        stick launcher Find out more about FIRST Robotics
+                        Competition Visit sponsor booths to learn more about
+                        real-world engineering Available on: Saturday 9am - 4pm
+                        Sunday 9am - 11am
+                    </h2>
+                    <iframe
+                        src='https://docs.google.com/document/d/e/2PACX-1vRypeounWM6kW13gsEDDUGOHUxYEdDgghWGWpkmvBM_WmE9jCQS3nkhbq7QnSmy0AaUsPOy8177yEf8/pub?embedded=true'
+                        className='h-fill m-2 w-2/3'
+                        title='Dicovery Center'></iframe>
+                </div>
+            </div>
         </main>
     );
 }
