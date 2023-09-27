@@ -8,6 +8,7 @@ import JerseyMikesLogo from './images/JerseyMikesLogo.png';
 import MKLogo from './images/MKLogo.png';
 import IkesSandwichesLogo from './images/IkesSandwichesLogo3.png';
 import RaisingCanesLogo from './images/RaisingCanesLogo.avif';
+import HeaderImage from './HeaderImage';
 
 function Sponsors() {
     return (

@@ -1,20 +1,34 @@
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
+import HeaderImage from './articles/HeaderImage';
+import SocalHassLogo from './articles/images/SocalHassLogo.png';
 
 function Root() {
     return (
         <>
             <header>
-                <p className='p-3 text-center font-serif text-3xl font-bold text-bluegray'>
-                    Socal Showdown
-                </p>
-                <nav className='mt-2 flex flex-row justify-center gap-4 text-center font-serif text-2xl'>
-                    <Link to=''>Home</Link>
-                    <Link to='signup'>Sign Up</Link>
-                    <Link to='location_time'>Location Time</Link>
-                    <Link to='directions'>Directions</Link>
-                    <Link to='sponsors'>Sponsors</Link>
-                </nav>
+                <div className='m-5 h-fit items-center gap-40 border-black bg-white'>
+                    <nav className='ml-5 flex flex-row items-center justify-end gap-4 pr-5 text-center font-serif text-2xl'>
+                        <img
+                            src={SocalHassLogo}
+                            className='fixed left-0 ml-5 h-12'
+                        />
+                        <Link to=''>Home</Link>
+                        <Link to='signup'>Sign Up</Link>
+                        <Link to='location_time'>Location Time</Link>
+                        <Link to='directions'>Directions</Link>
+                        <Link to='sponsors'>Sponsors</Link>
+                    </nav>
+                </div>
+                <div className='relative'>
+                    <HeaderImage pageTitle='Home' />
+
+                    <div className='absolute top-0'>
+                        <p className='p-3 text-center font-serif text-3xl font-bold text-bluegray'>
+                            SoCal Showdown
+                        </p>
+                    </div>
+                </div>
             </header>
             <Outlet />
         </>
