@@ -1,11 +1,17 @@
-import LARwide from './images/lar-wide.jpg';
-import LARwidecroppsed from './images/lar-wide-cropped.jpeg';
+import LAR from './images/lar-wide.jpg';
 
 function HeaderImage(props: { pageTitle: string }) {
     return (
-        <div className='left-0 top-0'>
-            <img src={LARwidecroppsed} className='bg-fixed' alt='LAR Photo' />
-            <p className='text-lg text-fuchsia-600'>{props.pageTitle}</p>
+        <div className='relative h-60 overflow-hidden'>
+            <img
+                src={LAR}
+                alt='Avatar'
+                className='h-full w-full object-cover brightness-50 '
+            />
+
+            <div className='absolute inset-x-0 bottom-28 w-full py-2.5 text-center text-3xl font-bold leading-4 text-white underline'>
+                {props.pageTitle}
+            </div>
         </div>
     );
 }

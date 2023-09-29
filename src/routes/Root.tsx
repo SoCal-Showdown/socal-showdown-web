@@ -7,7 +7,7 @@ function Root() {
     return (
         <>
             <header>
-                <div className='m-5 h-fit items-center gap-40 border-black bg-white'>
+                <div className='m-5 h-fit items-center gap-40 border-purple bg-white'>
                     <nav className='ml-5 flex flex-row items-center justify-end gap-4 pr-5 text-center font-serif text-2xl'>
                         <img
                             src={SocalHassLogo}
@@ -20,15 +20,10 @@ function Root() {
                         <Link to='sponsors'>Sponsors</Link>
                     </nav>
                 </div>
-                <div className='relative'>
-                    <HeaderImage pageTitle='Home' />
 
-                    <div className='absolute top-0'>
-                        <p className='p-3 text-center font-serif text-3xl font-bold text-bluegray'>
-                            SoCal Showdown
-                        </p>
-                    </div>
-                </div>
+                {/* <div className='w-full'>
+                    <HeaderImage pageTitle='Home'/>
+                </div> */}
             </header>
             <Outlet />
         </>
