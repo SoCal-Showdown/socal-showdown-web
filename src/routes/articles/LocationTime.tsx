@@ -1,9 +1,13 @@
+import HeaderImage from './HeaderImage';
+
 function LocationTime() {
     return (
         <main className='table-fixed font-serif'>
-            <h1 className='p-3 text-center font-serif text-2xl font-bold text-bluegray'>
+            {/* <h1 className='p-3 text-center font-serif text-2xl font-bold text-bluegray'>
                 Location and Time
-            </h1>
+            </h1> */}
+
+            <HeaderImage pageTitle='Location and Time' />
 
             <div className='m-5 flex justify-center '>
                 <iframe

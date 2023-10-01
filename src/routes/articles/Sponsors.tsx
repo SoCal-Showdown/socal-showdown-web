@@ -8,6 +8,7 @@ import JerseyMikesLogo from './images/JerseyMikesLogo.png';
 import MKLogo from './images/MKLogo.png';
 import IkesSandwichesLogo from './images/IkesSandwichesLogo3.png';
 import RaisingCanesLogo from './images/RaisingCanesLogo.avif';
+import HeaderImage from './HeaderImage';
 
 function Sponsors() {
     return (
@@ -15,6 +16,7 @@ function Sponsors() {
             {/* <h1 className='text-bluegray-rgba p-3 text-center font-serif text-2xl font-bold'>
                 Sponsors
             </h1> */}
+            <HeaderImage pageTitle='Sponsors' />
             <div className='mt-10 flex justify-center'>
                 <p className='w-1/2 text-center font-serif'>
                     This event wouldn't be possible without our great sponsors!
