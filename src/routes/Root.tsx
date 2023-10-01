@@ -1,24 +1,21 @@
 /* eslint-disable react/style-prop-object */
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
+import SocalHassLogo from './articles/images/SocalHassLogo.png';
 
 function Root() {
     return (
         <>
-            <header>
-                <div className='bg-bluegray bg-auto'>
-                    <div className='bg-socal-showdown'></div>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <p className='p-3 text-center font-serif text-7xl font-bold text-white underline decoration-purple-700'>
-                        SoCal Showdown
-                    </p>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-
-                    <nav className='mt-2 flex flex-row justify-center gap-5 text-center font-serif text-2xl text-white'>
+            <header>                
+                <HeaderImage pageTitle='Socal Showdown' />
+                    
+                <div className='m-5 h-fit items-center gap-40 border-purple bg-white'>
+                    <nav className='ml-5 flex flex-row items-center justify-end gap-4 pr-5 text-center font-serif text-2xl'>
+                        <img
+                            src={SocalHassLogo}
+                            className='fixed left-0 ml-5 h-12'
+                            alt='SocalHassLogo'
+                        />
                         <Link to=''>Home</Link>
                         <Link to='signup'>Sign Up</Link>
                         <Link to='location_time'>Location Time</Link>
@@ -26,8 +23,9 @@ function Root() {
                         <Link to='sponsors'>Sponsors</Link>
                     </nav>
                 </div>
+
             </header>
-            <Outlet />
+            
         </>
     );
 }
