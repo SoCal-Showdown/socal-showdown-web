@@ -1,17 +1,13 @@
-
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Sponsors from './articles/Sponsors';
 import vitruvianBotsImage from './articles/images/vitruvianBots.png';
 import nerdHerdImage from './articles/images/nerdHerd.png';
 import phantomCatzImage from './articles/images/phantomCatz.png';
 import robotImage from './articles/images/Robot.png';
-import HeaderImage from './articles/HeaderImage';
-
 
 function HomePage() {
     return (
         <main>
-
             <h1 className='text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
                 <b className='text-purple-700'>SoCal ShowDown!</b>
@@ -46,7 +42,7 @@ function HomePage() {
             <br></br>
             <br></br>
             <br></br>
-            <h1 className='text-center text-2xl text-white underline decoration-purple-700'>
+            <h1 className='decoration-purple-700 text-center text-2xl text-white underline'>
                 weewooo and stuff ahhhhhhhhhhhhhhhhhhhhhh
             </h1>
             <br></br>
@@ -58,7 +54,7 @@ function HomePage() {
             <br></br>
             <br></br>
             <br></br>
-            <h1 className='text-center text-2xl text-white underline decoration-purple-700'>
+            <h1 className='decoration-purple-700 text-center text-2xl text-white underline'>
                 weewooo and stuff ahhhhhhhhhhhhhhhhhhhhhh
             </h1>
             <br></br>
@@ -66,7 +62,7 @@ function HomePage() {
             <h1 className='text-center text-5xl font-semibold'>Host Teams</h1>
             <br></br>
             <br></br>
-            <div className='flex  flex-wrap items-center justify-center bg-purple-700'>
+            <div className='bg-purple-700  flex flex-wrap items-center justify-center'>
                 <br></br>
                 <br></br>
                 <div className='flex flex-row items-center'>
@@ -108,7 +104,6 @@ function HomePage() {
                     </a>
                 </div>
             </div>
-
         </main>
     );
 }

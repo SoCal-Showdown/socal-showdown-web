@@ -25,6 +25,7 @@ function Root() {
                     </nav>
                 </div>
             </header>
+            <Outlet />
         </>
     );
 }
