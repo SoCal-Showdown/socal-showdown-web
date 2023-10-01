@@ -4,10 +4,12 @@ import vitruvianBotsImage from './articles/images/vitruvianBots.png';
 import nerdHerdImage from './articles/images/nerdHerd.png';
 import phantomCatzImage from './articles/images/phantomCatz.png';
 import robotImage from './articles/images/Robot.png';
+import HeaderImage from './articles/HeaderImage';
 
 function HomePage() {
     return (
         <main>
+            <HeaderImage pageTitle='Socal Showdown' />
             <h1 className='text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
                 <b className='text-purple-700'>SoCal ShowDown!</b>
