@@ -66,45 +66,47 @@ function HomePage() {
             <h1 className='text-center text-5xl font-semibold'>Host Teams</h1>
             <br></br>
             <br></br>
-            <div className='-mx-10 flex flex-wrap items-center justify-center gap-3 bg-purple-700'>
+            <div className='flex  flex-wrap items-center justify-center bg-purple-700'>
                 <br></br>
                 <br></br>
-                <img
-                    alt='Nerd Herd Group Photo'
-                    src={nerdHerdImage}
-                    className='px-2m-5 mx-auto w-1/5 scale-100'
-                />
-                <a
-                    href='https://687camsrobotics.wixsite.com/mysite'
-                    className='text-2xl font-bold text-white underline'>
-                    687 - The Nerd Herd
-                </a>
-                <br></br>
-                <br></br>
-                <br></br>
-                <img
-                    alt='Phantom Catz Group Photo'
-                    src={phantomCatzImage}
-                    className='px-2m-5 mx-auto w-1/5 scale-100'
-                />
-                <a
-                    href='https://www.frcteam2637.org/'
-                    className='text-2xl font-bold text-white underline'>
-                    2637 - Phantom Catz
-                </a>
-                <br></br>
-                <br></br>
-                <br></br>
-                <img
-                    alt='The Vitruvian Bots Group Photo'
-                    src={vitruvianBotsImage}
-                    className='px-2m-5 mx-auto w-1/5 scale-90'
-                />
-                <a
-                    href='https://team4201.org/'
-                    className='text-2xl font-bold text-white underline'>
-                    4201 - The Vitruvian Bots
-                </a>
+                <div className='flex flex-row items-center'>
+                    <img
+                        alt='Nerd Herd Group Photo'
+                        src={nerdHerdImage}
+                        className='px-2m-5 mx-auto w-1/5 scale-100'
+                    />
+                    <a
+                        href='https://687camsrobotics.wixsite.com/mysite'
+                        className='text-right text-2xl font-bold text-white underline'>
+                        687 - The Nerd Herd
+                    </a>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img
+                        alt='Phantom Catz Group Photo'
+                        src={phantomCatzImage}
+                        className='px-2m-5 mx-auto w-1/5 scale-100'
+                    />
+                    <a
+                        href='https://www.frcteam2637.org/'
+                        className='text-2xl font-bold text-white underline'>
+                        2637 - Phantom Catz
+                    </a>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <img
+                        alt='The Vitruvian Bots Group Photo'
+                        src={vitruvianBotsImage}
+                        className='px-2m-5 mx-auto w-1/5 scale-90'
+                    />
+                    <a
+                        href='https://team4201.org/'
+                        className='text-2xl font-bold text-white underline'>
+                        4201 - The Vitruvian Bots
+                    </a>
+                </div>
             </div>
         </main>
     );

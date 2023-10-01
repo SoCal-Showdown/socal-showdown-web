@@ -1,7 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
-// import socalShowdownImage from './aritcles/images/socalShowdown.png'
 
 function Root() {
     return (
