@@ -18,7 +18,7 @@ function Sponsors() {
             </h1> */}
             <HeaderImage pageTitle='Sponsors' />
             <div className='mt-10 flex justify-center'>
-                <p className='w-1/2 text-center font-serif'>
+                <p className='w-1/2 text-center font-bold'>
                     This event wouldn't be possible without our great sponsors!
                     If you're interested in supporting this event, please
                     contact us for more information.
@@ -99,7 +99,7 @@ function Sponsors() {
                                 alt='MKLogo'></img>
                         </div>
 
-                        <div className='px-2m-5 w-1/6'>
+                        <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={RaisingCanesLogo}
                                 className='mx-auto'
