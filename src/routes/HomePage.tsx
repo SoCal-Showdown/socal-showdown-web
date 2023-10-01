@@ -1,4 +1,3 @@
-import LAR from './articles/images/lar-wide.jpg';
 import HeaderImage from './articles/HeaderImage';
 
 function HomePage() {

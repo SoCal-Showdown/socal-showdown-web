@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
-import HeaderImage from './articles/HeaderImage';
 import SocalHassLogo from './articles/images/SocalHassLogo.png';
 
 function Root() {
@@ -12,6 +11,7 @@ function Root() {
                         <img
                             src={SocalHassLogo}
                             className='fixed left-0 ml-5 h-12'
+                            alt='SocalHassLogo'
                         />
                         <Link to=''>Home</Link>
                         <Link to='signup'>Sign Up</Link>
