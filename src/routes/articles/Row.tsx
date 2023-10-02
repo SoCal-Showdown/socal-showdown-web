@@ -1,8 +1,10 @@
 import posterImage from './images/poster.png';
+import HeaderImage from './HeaderImage';
 
 function Row() {
     return (
         <main>
+            <HeaderImage pageTitle='Discovery Row' />
             <div className='flex gap-6 '>
                 <img
                     src={posterImage}

@@ -6,11 +6,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './routes/HomePage';
 import Root from './routes/Root';
 import Post1 from './routes/articles/Post1';
-import SignUp from './routes/articles/SignUp';
-import Sponsors from './routes/articles/Sponsors';
-import LocationTime from './routes/articles/LocationTime';
-import Directions from './routes/articles/Directions';
+
 import Row from './routes/articles/Row';
+import Teams from './routes/articles/Teams';
+import GameRules from './routes/articles/GameRules';
+import EventInfo from './routes/articles/EventInfo';
+import Volunteer from './routes/articles/Volunteer';
 
 const router = createBrowserRouter([
     {
@@ -22,25 +23,26 @@ const router = createBrowserRouter([
                 element: <HomePage />,
             },
             {
+                path: 'teams',
+                element: <Teams />,
+            },
+            {
+                path: 'rules',
+                element: <GameRules />,
+            },
+            {
+                path: 'info',
+                element: <EventInfo />,
+            },
+            {
                 path: 'row',
                 element: <Row />,
             },
             {
-                path: 'signup',
-                element: <SignUp />,
+                path: 'volunteer',
+                element: <Volunteer />,
             },
-            {
-                path: 'sponsors',
-                element: <Sponsors />,
-            },
-            {
-                path: 'location_time',
-                element: <LocationTime />,
-            },
-            {
-                path: 'directions',
-                element: <Directions />,
-            },
+
             {
                 path: 'articles',
                 children: [

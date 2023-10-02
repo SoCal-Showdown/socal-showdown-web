@@ -15,11 +15,11 @@ function Root() {
                             alt='SocalHassLogo'
                         />
                         <Link to=''>Home</Link>
-                        <Link to='signup'>Sign Up</Link>
-                        <Link to='location_time'>Location Time</Link>
-                        <Link to='directions'>Directions</Link>
-                        <Link to='sponsors'>Sponsors</Link>
+                        <Link to='teams'>Teams</Link>
+                        <Link to='rules'>Game Rules</Link>
+                        <Link to='info'>Event Info</Link>
                         <Link to='row'>Discovery Row</Link>
+                        <Link to='volunteer'>Volunteer</Link>
                     </nav>
                 </div>
             </header>
