@@ -57,11 +57,13 @@ function HomePage() {
                 {' '}
                 COVID Policy
             </h1>
-
             <p>
                 We are not going to be requiring masks, proof of vaccination, or
                 proof of a negative test but we do want to remind everyone of
-                some good basic practices: Click here for more info.
+                some good basic practices:{' '}
+                <Link to='covid' className='text-purple underline'>
+                    Click here for more info.
+                </Link>
                 <br></br>
                 <br></br>
                 We recognize that Covid-19 cases are starting to raise in our

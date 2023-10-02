@@ -6,12 +6,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './routes/HomePage';
 import Root from './routes/Root';
 import Post1 from './routes/articles/Post1';
-
 import Row from './routes/articles/Row';
 import Teams from './routes/articles/Teams';
 import GameRules from './routes/articles/GameRules';
 import EventInfo from './routes/articles/EventInfo';
 import Volunteer from './routes/articles/Volunteer';
+import Covid from './routes/articles/covid';
 
 const router = createBrowserRouter([
     {
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: 'teams',
                 element: <Teams />,
+            },
+            {
+                path: 'covid',
+                element: <Covid />,
             },
             {
                 path: 'rules',
