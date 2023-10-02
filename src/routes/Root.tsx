@@ -28,6 +28,7 @@ function Root() {
                         <Link to='eventinfo'>Event Info</Link>
                         <Link to='directions'>Directions</Link>
                         <Link to='sponsors'>Sponsors</Link>
+                        <Link to='eventinfo'>Event Info</Link>
                     </nav>
                 </div>
             </header>
