@@ -18,7 +18,6 @@ function Root() {
                         <Link to='teams'>Teams</Link>
                         <Link to='rules'>Game Rules</Link>
                         <Link to='info'>Event Info</Link>
-                        <Link to='row'>Discovery Row</Link>
                         <Link to='volunteer'>Volunteer</Link>
                     </nav>
                 </div>

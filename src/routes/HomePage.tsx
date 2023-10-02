@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Sponsors from './articles/Sponsors';
-import Row from './articles/Row';
 import vitruvianBotsImage from './articles/images/vitruvianBots.png';
 import nerdHerdImage from './articles/images/nerdHerd.png';
 import phantomCatzImage from './articles/images/phantomCatz.png';
 import robotImage from './articles/images/Robot.png';
 import HeaderImage from './articles/HeaderImage';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     return (
@@ -31,10 +31,13 @@ function HomePage() {
                         <br></br>
                         <br></br>
                         Bring your younger siblings and friends to explore and
-                        invent at <b className='underline'>Discovery Row</b>!
-                        Come build a launcher, experiment with LEGO Robots, and
-                        find out what FIRST Robotics Competition is all about.
-                        Don’t forget to visit booths from our sponsors to
+                        invent at{' '}
+                        <Link to='row'>
+                            <b className='underline'>Discovery Row</b>
+                        </Link>
+                        ! Come build a launcher, experiment with LEGO Robots,
+                        and find out what FIRST Robotics Competition is all
+                        about. Don’t forget to visit booths from our sponsors to
                         discover more about real-world engineering!
                         <br></br>
                         <br></br>
@@ -45,7 +48,32 @@ function HomePage() {
             <br></br>
             <br></br>
             <br></br>
-            <h1 className='decoration-purple-700 text-center text-2xl text-white underline'>
+            <h1 className='text-center text-2xl text-white underline decoration-purple'>
+                weewooo and stuff ahhhhhhhhhhhhhhhhhhhhhh
+            </h1>
+            <br></br>
+            <br></br>
+            <h1 className='font-Oswald text-left text-5xl font-semibold text-black'>
+                {' '}
+                COVID Policy
+            </h1>
+
+            <p>
+                We are not going to be requiring masks, proof of vaccination, or
+                proof of a negative test but we do want to remind everyone of
+                some good basic practices: Click here for more info.
+                <br></br>
+                <br></br>
+                We recognize that Covid-19 cases are starting to raise in our
+                communities. We also understand that mitigating all risk of
+                exposure to Covid-19 is impossible, and participants should make
+                responsible decisions based on their own risk assessment and
+                comfort. That said if participants are more comfortable wearing
+                a mask during the event they should and will not be asked to
+                remove for any reason.{' '}
+            </p>
+
+            <h1 className='text-center text-2xl text-white underline decoration-purple'>
                 weewooo and stuff ahhhhhhhhhhhhhhhhhhhhhh
             </h1>
             <br></br>
@@ -54,7 +82,6 @@ function HomePage() {
             <br></br>
             <br></br>
             <Sponsors />
-            <Row />
             <br></br>
             <br></br>
             <br></br>

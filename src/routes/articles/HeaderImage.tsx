@@ -9,7 +9,7 @@ function HeaderImage(props: { pageTitle: string }) {
                 className='h-full w-full object-cover brightness-50 '
             />
 
-            <div className='absolute inset-x-0 bottom-28 w-full py-2.5 text-center text-3xl font-bold leading-4 text-white underline'>
+            <div className='absolute inset-x-0 bottom-28 w-full py-2.5 text-center text-7xl font-bold leading-4 text-white underline decoration-purple'>
                 {props.pageTitle}
             </div>
         </div>
