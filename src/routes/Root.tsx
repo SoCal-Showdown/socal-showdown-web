@@ -19,6 +19,7 @@ function Root() {
                         <Link to='location_time'>Location Time</Link>
                         <Link to='directions'>Directions</Link>
                         <Link to='sponsors'>Sponsors</Link>
+                        <Link to='row'>Discovery Row</Link>
                     </nav>
                 </div>
             </header>

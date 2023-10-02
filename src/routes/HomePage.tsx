@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import Sponsors from './articles/Sponsors';
+import Row from './articles/Row';
 import vitruvianBotsImage from './articles/images/vitruvianBots.png';
 import nerdHerdImage from './articles/images/nerdHerd.png';
 import phantomCatzImage from './articles/images/phantomCatz.png';
@@ -10,9 +11,9 @@ function HomePage() {
     return (
         <main>
             <HeaderImage pageTitle='Socal Showdown' />
-            <h1 className='text-center text-5xl font-semibold text-black'>
+            <h1 className='font-Oswald text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
-                <b className='text-purple-700'>SoCal ShowDown!</b>
+                <b className='text-purple'>SoCal ShowDown!</b>
             </h1>
             <br></br>
             <div className='flex gap-6 '>
@@ -22,7 +23,7 @@ function HomePage() {
                     className='ml-5 w-0 flex-grow basis-0 scale-90'
                 />
                 <div className='flex-grow basis-0'>
-                    <p className='w-1/2 text-center text-lg'>
+                    <p className='font- w-1/2 text-center text-lg'>
                         Join us for a weekend of robotics action and fierce
                         competition at <b>SoCal Showdown</b>, a new off-season
                         competition held at the same venue as the Los Angeles
@@ -53,6 +54,7 @@ function HomePage() {
             <br></br>
             <br></br>
             <Sponsors />
+            <Row />
             <br></br>
             <br></br>
             <br></br>

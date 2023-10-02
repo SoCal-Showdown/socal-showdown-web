@@ -10,6 +10,7 @@ import SignUp from './routes/articles/SignUp';
 import Sponsors from './routes/articles/Sponsors';
 import LocationTime from './routes/articles/LocationTime';
 import Directions from './routes/articles/Directions';
+import Row from './routes/articles/Row';
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <HomePage />,
+            },
+            {
+                path: 'row',
+                element: <Row />,
             },
             {
                 path: 'signup',

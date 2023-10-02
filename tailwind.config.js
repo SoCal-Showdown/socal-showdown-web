@@ -4,6 +4,10 @@ module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
         extend: {
+            fontFamily: {
+                body: ['"Open Sans"'],
+                display: ['Oswald'],
+            },
             colors: {
                 bluegray: 'rgba(111,116,152,1)',
                 purple: 'rgba(109,34,182,255)',

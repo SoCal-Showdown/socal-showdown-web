@@ -17,6 +17,13 @@ function Row() {
                         Visit sponsor booths to learn more about real-world
                         engineering
                     </li>
+                    <p>
+                        <b>Available on:</b>
+                        <br></br>
+                        Saturday 9am - 4pm
+                        <br></br>
+                        Sunday 9am - 11am
+                    </p>
                 </div>
             </div>
         </main>
