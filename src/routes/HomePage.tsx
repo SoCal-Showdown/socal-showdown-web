@@ -72,7 +72,7 @@ function HomePage() {
                 responsible decisions based on their own risk assessment and
                 comfort. That said if participants are more comfortable wearing
                 a mask during the event they should and will not be asked to
-                remove for any reason.{' '}
+                remove for any reason.
             </p>
 
             <h1 className='text-center text-2xl text-white underline decoration-purple'>
@@ -87,15 +87,28 @@ function HomePage() {
             <br></br>
             <br></br>
             <br></br>
-            <h1 className='decoration-purple-700 text-center text-2xl text-white underline'>
+            <h1 className='text-center text-2xl text-white underline decoration-purple'>
                 weewooo and stuff ahhhhhhhhhhhhhhhhhhhhhh
             </h1>
             <br></br>
             <br></br>
-            <h1 className='text-center text-5xl font-semibold'>Host Teams</h1>
+            <div className='items-left flex flex-row'>
+                <h1 className='text-center text-5xl font-semibold'>
+                    Host Teams{' '}
+                </h1>
+                <p className='py-5 text-2xl font-semibold'>
+                    (Want to learn{' '}
+                    <Link to='Teams'>
+                        <b className='font-semibold text-purple underline'>
+                            more
+                        </b>
+                    </Link>
+                    ?)
+                </p>
+            </div>
             <br></br>
             <br></br>
-            <div className='bg-purple-700  flex flex-wrap items-center justify-center'>
+            <div className='flex  flex-wrap items-center justify-center bg-purple'>
                 <br></br>
                 <br></br>
                 <div className='flex flex-row items-center'>
