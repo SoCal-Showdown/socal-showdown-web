@@ -8,6 +8,7 @@ import JerseyMikesLogo from './images/JerseyMikesLogo.png';
 import MKLogo from './images/MKLogo.png';
 import IkesSandwichesLogo from './images/IkesSandwichesLogo3.png';
 import RaisingCanesLogo from './images/RaisingCanesLogo.avif';
+import HeaderImage from './HeaderImage';
 
 function Sponsors() {
     return (
@@ -15,8 +16,9 @@ function Sponsors() {
             {/* <h1 className='text-bluegray-rgba p-3 text-center font-serif text-2xl font-bold'>
                 Sponsors
             </h1> */}
+            {/* <HeaderImage pageTitle='Sponsors' /> */}
             <div className='mt-10 flex justify-center'>
-                <p className='w-1/2 text-center font-serif'>
+                <p className='w-1/2 text-center font-bold'>
                     This event wouldn't be possible without our great sponsors!
                     If you're interested in supporting this event, please
                     contact us for more information.
@@ -97,7 +99,7 @@ function Sponsors() {
                                 alt='MKLogo'></img>
                         </div>
 
-                        <div className='px-2m-5 w-1/6'>
+                        <div className='m-5 w-1/6 px-2'>
                             <img
                                 src={RaisingCanesLogo}
                                 className='mx-auto'
