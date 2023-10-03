@@ -11,11 +11,10 @@ function HomePage() {
     return (
         <main>
             <HeaderImage pageTitle='Socal Showdown' />
-            <h1 className='font-Oswald text-center text-5xl font-semibold text-black'>
+            <h1 className='font-Oswald mb-9 text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
                 <b className='text-purple'>SoCal ShowDown!</b>
             </h1>
-            <br></br>
             <div className='flex gap-6 '>
                 <img
                     src={robotImage}
@@ -106,7 +105,6 @@ function HomePage() {
                     ?)
                 </p>
             </div>
-            <br></br>
             <br></br>
             <div className='flex  flex-wrap items-center justify-center bg-purple'>
                 <br></br>
