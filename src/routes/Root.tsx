@@ -25,7 +25,6 @@ function Root() {
                         <Link to=''>Home</Link>
                         <Link to='signup'>Sign Up</Link>
                         <Link to='location_time'>Location Time</Link>
-                        <Link to='eventinfo'>Event Info</Link>
                         <Link to='directions'>Directions</Link>
                         <Link to='sponsors'>Sponsors</Link>
                         <Link to='eventinfo'>Event Info</Link>
