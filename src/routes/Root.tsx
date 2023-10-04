@@ -1,7 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
-import HeaderImage from './articles/HeaderImage';
 import SocalHassLogo from './articles/images/SocalHassLogo.png';
 
 function Root() {
