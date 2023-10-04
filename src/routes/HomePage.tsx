@@ -9,13 +9,7 @@ import HeaderImage from './articles/HeaderImage';
 function HomePage() {
     return (
         <main>
-            <div className='grid place-content-center bg-[#6d22b6] py-4'>
-                <button className="rounded border border-solid border-white px-6 py-1 font-['Open_Sans'] text-[18px] text-white">
-                    See Latest Announcements
-                </button>
-            </div>
-
-            <HeaderImage pageTitle='Socal Showdown' />
+            <HeaderImage pageTitle='SOCAL SHOWDOWN'></HeaderImage>
             <h1 className='text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
                 <b className='text-purple-700'>SoCal ShowDown!</b>

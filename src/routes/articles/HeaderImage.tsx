@@ -18,7 +18,7 @@ function HeaderImage(props: { pageTitle: string }) {
                     {props.pageTitle}
                 </h1>
                 <img
-                    src='CompetitionPhoto.png'
+                    src={LAR}
                     className='z-0 h-[285px] w-full object-cover object-center opacity-50'
                     alt='competitionphoto'
                 />
