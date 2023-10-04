@@ -9,7 +9,7 @@ import HeaderImage from './articles/HeaderImage';
 function HomePage() {
     return (
         <main>
-            <HeaderImage pageTitle='Socal Showdown' />
+            <HeaderImage pageTitle='SOCAL SHOWDOWN'></HeaderImage>
             <h1 className='text-center text-5xl font-semibold text-black'>
                 Continue your season at <br></br>
                 <b className='text-purple-700'>SoCal ShowDown!</b>
