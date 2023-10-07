@@ -16,11 +16,11 @@ function HomePage() {
                     className='ml-5 w-0 flex-grow basis-0 scale-90'
                 />
                 <div className='flex-grow basis-0'>
-                    <h1 className='my-8 mr-[250px] text-left font-[Oswald] text-5xl uppercase text-black'>
+                    <h1 className='my-8 mr-[250px] text-left font-[Oswald] text-5xl uppercase text-black '>
                         Continue your season at <br></br>
                         <b className='text-purple '>SoCal ShowDown!</b>
                     </h1>
-                    <p className='w-auto text-left text-lg'>
+                    <p className=' w-full text-left text-lg'>
                         Join us for a weekend of robotics action and fierce
                         competition at <b>SoCal Showdown</b>, a new off-season
                         competition held at the same venue as the Los Angeles
@@ -40,9 +40,11 @@ function HomePage() {
                 </div>
             </div>
 
-            <hr className='mx-10 my-8 h-[2.5px] w-[1200px] rounded bg-purple object-left' />
+            <div className='flex items-center justify-center '>
+                <hr className=' mx-10 h-[2.5px] w-[1465px]  rounded bg-purple' />
+            </div>
 
-            <h1 className='mx-10 my-10 text-left font-[Oswald] text-5xl uppercase'>
+            <h1 className='mx-[55px] my-10 text-left font-[Oswald] text-5xl uppercase'>
                 Sponsors
             </h1>
 
@@ -54,46 +56,45 @@ function HomePage() {
                 <hr className=' mx-10 h-[2.5px] w-[1400px]  rounded bg-purple' />
             </div>
 
-            <h1 className='mx-[86px] my-8 text-left font-[Oswald] text-5xl'>
+            <h1 className='mx-[86px] my-10 text-left font-[Oswald] text-6xl'>
                 Host Teams
             </h1>
 
-            <div className='my-5  flex  items-center justify-center gap-0 bg-purple'>
-                <div className='flex flex-col '>
-                    <img
-                        alt='Nerd Herd Group Photo'
-                        src={nerdHerdImage}
-                        className='flex flex-grow '
-                    />
-                    <a
-                        href='https://687camsrobotics.wixsite.com/mysite'
-                        className='text-center text-2xl font-bold text-white underline '>
-                        687 - The Nerd Herd
-                    </a>
-                </div>
-                <div className='flex flex-col '>
-                    <img
-                        alt='Phantom Catz Group Photo'
-                        src={phantomCatzImage}
-                        className='flex flex-grow scale-75'
-                    />
-                    <a
-                        href='https://www.frcteam2637.org/'
-                        className=' text-center text-2xl font-bold text-white underline'>
-                        2637 - Phantom Catz
-                    </a>
-                </div>
-                <div className='flex flex-col items-center '>
-                    <img
-                        alt='The Vitruvian Bots Group Photo'
-                        src={vitruvianBotsImage}
-                        className='flex scale-50'
-                    />
-                    <a
-                        href='https://team4201.org/'
-                        className='text-2xl font-bold text-white underline'>
-                        4201 - The Vitruvian Bots
-                    </a>
+            <div className='flex flex-wrap justify-center bg-purple'>
+                <div className='-mx-10 flex w-auto flex-wrap items-center justify-center'>
+                    <div className='m-5 w-1/4 px-2'>
+                        <img
+                            alt='ChevronLogo'
+                            src={nerdHerdImage}
+                            className='mx-auto'></img>
+                        <a
+                            href='https://687camsrobotics.wixsite.com/mysite'
+                            className='mx-[75px] text-2xl font-bold text-white underline '>
+                            687 - The Nerd Herd
+                        </a>
+                    </div>
+                    <div className='m-5 w-1/4 px-2'>
+                        <img
+                            alt='ChevronLogo'
+                            src={phantomCatzImage}
+                            className='mx-auto'></img>
+                        <a
+                            href='https://www.frcteam2637.org/'
+                            className=' mx-[75px] text-left text-2xl font-bold text-white underline'>
+                            2637 - Phantom Catz
+                        </a>
+                    </div>
+                    <div className='m-5 w-1/5 px-2'>
+                        <img
+                            src={vitruvianBotsImage}
+                            className='mx-auto'
+                            alt='AerojetRocketDyneLogo'></img>
+                        <a
+                            href='https://team4201.org/'
+                            className='mx-[14px] text-2xl font-bold text-white underline'>
+                            4201 - The Vitruvian Bots
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
